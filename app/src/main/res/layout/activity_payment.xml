@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151719"
+    android:orientation="vertical"
+    tools:context=".payment">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="COD"
+
+    android:layout_marginTop="150dp"
+    android:id="@+id/b1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:text="paytm"
+        android:id="@+id/b2"/>
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="Debitcard/credit card"
+        android:id="@+id/b3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:text="other wallet"
+        android:id="@+id/b4"/>
+</LinearLayout>

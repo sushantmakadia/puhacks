@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/black">
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:includeFontPadding="false"
+            android:layerType="software"
+            android:text="select mall name here"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@android:dimen/app_icon_size"
+            />
+
+        <RadioButton
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="central square"
+            android:textColor="@android:color/background_light"
+            android:buttonTint="@android:color/background_light"/>
+
+        <RadioButton
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="inorbit"
+            android:textColor="@android:color/background_light"
+            android:buttonTint="@android:color/background_light"
+            />
+
+        <RadioButton
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="reliance"
+            android:textColor="@android:color/background_light"
+            android:buttonTint="@android:color/background_light"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"
+        android:onClick="onclickbuttonMethod"
+        android:text="Show Selected" />
+
+
+</RelativeLayout>
